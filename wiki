@@ -1,1 +1,3 @@
 Puissance administrative = Puissance propulsive + Auxiliaire
+
+Certains navires ne  sont pas jaugés en UMS => uniformatisation possible 
