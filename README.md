@@ -18,6 +18,6 @@ Les données proviennent de la Direction des Affaires Maritimes, au sein du Mini
 |annee_construction|Année de Construction|int| -  |1989|Valeur obligatoire|
 |type_carburant| Type de carburant|text| Carburant utilisé pour la propulsion du navire |Diesel| Valeur optionnelle|
 |jauge| Jauge | double precision | Mesure de la capacité de transport d'un navire. Unité en UMS | 260 | Valeur obligatoire | 
-|vitesse_croisiere| Vitesse de croisière | double precision |-|-| Valeur optionnelle | 
+|vitesse_croisiere| Vitesse de croisière | double precision | 32 nds| Valeur optionnelle | 
 |nombre_moteur| Nombre de moteurs | int |-|2| Valeur optionnelle | 
 
