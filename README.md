@@ -15,3 +15,5 @@ Les données proviennent de la Direction des Affaires Maritimes, au sein du Mini
 |puissance_propulsive|Puissance Propulsive|double precision|Puissance propulsive en kW| - | Valeur optionnelle|
 |longueur_hors_tout|Longueur Hors Tout|double precision|Distance entre les points extrêmes avant et arrière de la structure permanente du bateau|11.9|Valeur obligatoire|
 |annee_construction|Année de Construction|double precision| -  |1989|Valeur obligatoire|
+|type_carburant| Type de carburant|text| Carburant utilisé pour la propolusion du navire |Diesel| Valeur optionnelle|
+
