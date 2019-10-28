@@ -11,9 +11,13 @@ Les données proviennent de la Direction des Affaires Maritimes, au sein du Mini
 |nom_navire|Nom du Navire|text|Nom utilisé pour identifier un navire. Ce champ n'est pas unique et peut changer (notamment lors d'un changemement de propriétaire|Houba Houba|Valeur obligatoire|
 |chantier_construction|Chantier construction|text| - |CHANTIER NAVAL TARIN|Valeur optionnelle|
 |genre_navigation|Genre Navigation|text|Donnée réglementant le temps de de navigation|CI-CABOTAGE INTERNATIONAL|Valeur obligatoire|
+|effectif_minimum|Effectif Minimum|int| Nombre minimum de personnel navigants à bord| 3 | Valeur obligatoire |
 |centre_secu_gestion|Centre sécurité gestionnaire|text|Un centre de sécurité est un service régional de la prévention des risques professionnels maritimes. Il a pour tâche principale la visite de navires professionnels français qui doivent être titulaires d’un permis de navigation (titre de sécurité).|CSN Caen|Valeur obligatoire|
 |puissance_propulsive|Puissance Propulsive|double precision|Puissance propulsive en kW| - | Valeur optionnelle|
 |longueur_hors_tout|Longueur Hors Tout|double precision|Distance entre les points extrêmes avant et arrière de la structure permanente du bateau|11.9|Valeur obligatoire|
-|annee_construction|Année de Construction|double precision| -  |1989|Valeur obligatoire|
-|type_carburant| Type de carburant|text| Carburant utilisé pour la propolusion du navire |Diesel| Valeur optionnelle|
+|annee_construction|Année de Construction|int| -  |1989|Valeur obligatoire|
+|type_carburant| Type de carburant|text| Carburant utilisé pour la propulsion du navire |Diesel| Valeur optionnelle|
+|jauge| Jauge | double precision | Mesure de la capacité de transport d'un navire. Unité en UMS | 260 | Valeur obligatoire | 
+|vitesse_croisiere| Vitesse de croisière | double precision |-|-| Valeur optionnelle | 
+|nombre_moteur| Nombre de moteur | int |-|2| Valeur optionnelle | 
 
