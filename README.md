@@ -3,10 +3,11 @@
 Les données proviennent de la Direction des Affaires Maritimes, au sein du Ministère de la Transition Ecologique et Solidaire.
 
 ## Modèle de données
+- Clé primaire : 'num_immat_francais'
 
 |Nom|Titre|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|-|
-|num_immat_francais|Numéro Immatriculation Française|text|6 chiffres d'immatriculation professionnelle française 1 lettre et cinq chiffres pour les navires immatriculés en plaisance. Si le navire de plaisance vient à passer en professionnel, il prend un 
+|num_immat_francais|Numéro Immatriculation Française|text|6 chiffres d'immatriculation professionnelle française 1 lettre et cinq chiffres pour les navires immatriculés en plaisance. Si le navire de plaisance vient à passer en professionnel, il prend un numéro définitif à 6 chiffres.|762413 (Navigation Professionnelle) A62413 (Plaisance)|Valeur obligatoire|
 |nom_navire|Nom du Navire|text|Nom utilisé pour identifier un navire. Ce champ n'est pas unique et peut changer (notamment lors d'un changemement de propriétaire|Houba Houba|Valeur obligatoire|
 |chantier_construction|Chantier construction|text| - |CHANTIER NAVAL TARIN|Valeur optionnelle|
 |genre_navigation|Genre Navigation|text||CI-CABOTAGE INTERNATIONAL|Valeur obligatoire|
