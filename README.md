@@ -21,6 +21,13 @@ Les données proviennent de la Direction des Affaires Maritimes, au sein du Mini
 |annee_construction|Année de Construction|int| -  |1989|Valeur obligatoire|
 |type_carburant| Type de carburant|text| Carburant utilisé pour la propulsion du navire |Diesel| Valeur optionnelle|
 |jauge| Jauge | double precision | Mesure de la capacité de transport d'un navire. Unité en UMS | 260 | Valeur obligatoire | 
-|vitesse_croisiere| Vitesse de croisière | double precision | 32 nds| Valeur optionnelle | 
 |nombre_moteur| Nombre de moteurs | int |-|2| Valeur optionnelle | 
+|quartier| Quartier |text| Si RI => Registre International Français| Brest| Valeur optionnelle|
+|date_francisation| Date Francisation |date| Date à laquelle le navire porte la pvaillons français | 12/12/2012 | Valeur optionelle|
+|date_derniere_emission_ais| Date Dernière Emission AIS| date | Date de la dernière émission de position via AIS, dont la vitesse est non nulle | 12/12/2012 | Valeur Optionelle |
+|moyenne_vitesse_ais|Moyenne Vitesse AIS| int| Moyenne de la vitesse du navire relevé via AIS | 12 knts | Vitesse optionnelle|
+
+
+
+
 
