@@ -16,6 +16,7 @@ Les données proviennent de la Direction des Affaires Maritimes, au sein du Mini
 |genre_navigation|Genre Navigation|text|Donnée réglementant le temps de de navigation|CI-CABOTAGE INTERNATIONAL|Valeur obligatoire|oui|
 |effectif_minimum|Effectif Minimum|int| Nombre minimum de personnel navigants à bord| 3 | Valeur obligatoire |non (donnée trop incomplète|
 |centre_secu_gestion|Centre sécurité gestionnaire|text|Un centre de sécurité est un service régional de la prévention des risques professionnels maritimes. Il a pour tâche principale la visite de navires professionnels français qui doivent être titulaires d’un permis de navigation (titre de sécurité).|CSN Caen|Valeur obligatoire|non|
+|puissance_administrative|Puissance Administrative|double precision|Puissance propulsive en kW + Puissance auxiliaire| - | Valeur optionnelle|oui|
 |puissance_propulsive|Puissance Propulsive|double precision|Puissance propulsive en kW| - | Valeur optionnelle|oui|
 |longueur_hors_tout|Longueur Hors Tout|double precision|Distance entre les points extrêmes avant et arrière de la structure permanente du bateau|11.9|Valeur obligatoire|oui|
 |annee_construction|Année de Construction|int| -  |1989|Valeur obligatoire|oui|
