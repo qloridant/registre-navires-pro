@@ -7,7 +7,7 @@ Les données proviennent de la Direction des Affaires Maritimes, au sein du Mini
 
 |Nom|Titre|Type|Description|Exemple|Propriétés|
 |-|-|-|-|-|-|
-|immat_omi|Identifiant OMI|double precision|Identifiant des navires, associé à une coque. Il est invariant quels que soient les changements de propriétaire, de pavillon ou de nom du navire. Il est attribué aux navires de commerce de jauge brute égale ou supérieure à 100 à leur construction. [ref wikipédia](https://fr.wikipedia.org/wiki/Num%C3%A9ro_IMO) |IMO 1234567|Valeur optionnelle|
+|omi|Identifiant OMI|double precision|Identifiant des navires, associé à une coque. Il est invariant quels que soient les changements de propriétaire, de pavillon ou de nom du navire. Il est attribué aux navires de commerce de jauge brute égale ou supérieure à 100 à leur construction. [ref wikipédia](https://fr.wikipedia.org/wiki/Num%C3%A9ro_IMO) |IMO 1234567|Valeur optionnelle|
 |mmsi|identifiant MMSI|double precision|Maritime Mobile Service Identity (MMSI) : Indentifiant radiophonique unique d'un navire| 227150000|Valeur optionnelle|
 |num_immat_francais|Numéro Immatriculation Française|text|6 chiffres d'immatriculation professionnelle française 1 lettre et cinq chiffres pour les navires immatriculés en plaisance. Si le navire de plaisance vient à passer en professionnel, il prend un numéro définitif à 6 chiffres.|762413 (Navigation Professionnelle) A62413 (Plaisance)|Valeur obligatoire|
 |armateur_exploitant| Armateur exploitant|text|Armateur responsable de l'exploitation du navire|Bourbon|Valeur opérationnelle| 
